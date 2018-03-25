@@ -1,5 +1,8 @@
-n = int(input("Введите положительное целое число: "))
-s = 0
-for i in range(n):
-    s += i
-print ("Сумма чисел от 1 до n: " + str(s))
+import random
+def creatrandmas():
+    m = []
+    for i in range(9):
+        m.append(random.randint(0, 999))
+    return m
+masv = creatrandmas()
+print (masv)
